@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\VolunteerController;
+use App\Http\Controllers\HaithamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [VolunteerController::class , 'index']);
 Route::post('/', [VolunteerController::class , 'register'])->name('register');
+
+Route::get('/haitham', [HaithamController::class , 'show']);
 

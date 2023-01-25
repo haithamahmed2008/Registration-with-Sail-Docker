@@ -1,0 +1,1 @@
+<h1> Haitham </h1><?php /**PATH /var/www/html/resources/views/HaithamView.blade.php ENDPATH**/ ?>
